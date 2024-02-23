@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    height:50px;
+    width:400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin : 20% auto;
+    gap:20px;
+}
+.stars{
+    height :40px;
+    width:50px;
+    filter:grayscale(100%);
+    transition: all ease 0.3s;
+}
